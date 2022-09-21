@@ -5,12 +5,12 @@ export abstract class BaseComponent {
     public classNames: string[];
 
     // Functions
-    public abstract mapStyle(style: BaseStyleParams): void;
+    public abstract mapStyle(style): void;
 
 }
 
 export abstract class CustomizableComponent extends BaseComponent {
 
     // Functions
-    public abstract mapStyle(style: CustomStyleParams): void;
+    public abstract mapStyle(style): void;
 }
